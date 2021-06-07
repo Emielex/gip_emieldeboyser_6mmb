@@ -1,0 +1,142 @@
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) and (max-width: 1299px) {}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*image in landingspage*/
+    .bgImg {
+    max-width: 100%;
+    height: 67vh;
+    background: url("../img/komPopcorn_vtvgop_c_scale,w_285.png") no-repeat  right;
+}
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bgImg {
+    max-width: 70%;
+    height: 47vh;
+    background: url("../img/komPopcorn_vtvgop_c_scale,w_285.png") no-repeat  right;
+    }
+    .space-between-video{
+        margin: 5%;
+    }
+
+    .selfie{
+        width: 40%;
+        margin-left: 30%;
+        padding-bottom: 2%;
+    }
+
+    #about, #fotoalbum{
+        padding-bottom: 5%;
+    }
+
+    .gallery{
+        padding-bottom: 2%;
+    }
+
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    .responsive-center nav{
+        justify-content: center;
+    }
+
+    video {
+        display: none;
+    }
+
+      .bgImg {
+    max-width: 80%;
+    height: 37vh;
+    background: url("../img/komPopcorn_vtvgop_c_scale,w_285.png") no-repeat  right;
+    }
+
+    .space-between-video{
+        margin: 5%;
+    }
+
+    .selfie{
+        width: 60%;
+        margin-left: 21%;
+        padding-bottom: 2%;
+    }
+
+    #about, #fotoalbum{
+        padding-bottom: 5%;
+    }
+
+    .gallery{
+        padding-bottom: 2%;
+    }
+
+    .styled-input.wide{
+        width: 600px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .styled-input.wide{
+        width: 532px;
+    }
+}
+
+@media (max-width: 667px) {
+
+    .styled-input.wide{
+        width: 282px;
+    }
+
+    a{
+        padding-right: 1px;
+        font-size: 9pt;
+    }
+
+    ul.navigatie{
+        margin-left: -13%;
+    }
+
+    .bgImg {
+    max-width: 83%;
+    height: 29vh;
+    background: url("../img/komPopcorn_vtvgop_c_scale,w_200.png") no-repeat  right;
+    }
+
+    .mini{
+        margin-bottom: -5%;
+    }
+
+    .kleiner{
+        font-size: 17pt;
+    }
+
+    .nogkleiner{
+        font-size: 12pt;
+    }
+
+    input, textarea{
+        padding: 20px;
+        font-size: 7pt;
+    }
+
+    .styled-input label{
+        top: 0;
+        padding: 1rem 30px 1rem 20px;
+    }
+
+    .h4, .h5{
+        font-size: 1rem;
+    }
+
+    #start{
+        padding-top: 107px;
+    }
+}

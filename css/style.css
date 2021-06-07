@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 85%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#top {
+    max-width: 100%;
+}
+
+.stickynavbar {
+    position: fixed;
+    z-index: 999;
+    background-color: #FF9384;
+}
+
+#videos {
+    margin-bottom: 5%;
+    padding-top: 5%;
+    z-index: 999999999;
+}
+
+#about {
+    color: white;
+    background-color: #FFB300;
+    height: 100%;
+    margin: 5% 0;
+}
+
+#logo {
+    text-align: left;
+    width: 170%;
+}
+
+#fotoalbum {
+    color: white;
+    height: 100%;
+}
+
+#start {
+    padding-top: 150px;
+    background-color: #FF9384;
+    height: 100vh;
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.bgImg {
+    max-width: 100%;
+    height: 67vh;
+    background: url("../img/komPopcorn.png") no-repeat center right;
+}
+
+.selfie {
+    width: 70%;
+    margin-left: -5%;
+}
+
+/*navbar*/
+nav {
+    padding-top: 3%;
+    display: flex;
+    font-size: 15pt;
+}
+
+ul.navigatie {
+    list-style-type: none;
+    display: flex;
+}
+
+li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    border-bottom: 3px solid transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: black;
+}
+/* begin gallery*/
+
+.fotoalbum {
+    background-color: #61AFFD;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    transition: .3s;
+    margin-left: -5%;
+    float: left;
+}
+
+.gallery__column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.gallery__image {
+    display: block;
+/*    width: 80%;*/
+    transition: .3s;
+}
+
+.gallery__image:hover {
+    transform: scale(1.1);
+    z-index: 11;
+}
+
+figure{
+    margin-bottom: 0;
+}
+
+/*end gallery*/
+
+/*preloader*/
+
+#preloader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#status {
+    background-image: url("../img/preloader.gif");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin-top: -35px;
+    margin-left: -35px;
+
+}
+
+/*end preloader*/
+/*begin form*/
+
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+input:focus~span,
+textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 40.625rem;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    padding: 7px 35px;
+    border-radius: 3.75rem;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+    color: black;
+}
+
+
+.nopad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contacteer {
+    background-color: #444442;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.tekstform {
+    color: white;
+    justify-content: center;
+}
+
+/*end form*/
