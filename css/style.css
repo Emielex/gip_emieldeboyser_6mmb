@@ -206,7 +206,7 @@ textarea {
     border: 0;
     width: 100%;
     font-size: 1rem;
-    background-color: #2d2d2d;
+    background-color: white;
     color: white;
     border-radius: 4px;
 }
@@ -241,6 +241,7 @@ textarea {
     color: white;
     font-size: 1.125rem;
     cursor: pointer;
+    justify-content: center;
 }
 
 .submit-btn:hover {
@@ -257,7 +258,7 @@ textarea {
 }
 
 .contacteer {
-    background-color: #444442;
+    background-color: #FFD285;
     padding: 2%;
     margin-top: 5%;
 }
